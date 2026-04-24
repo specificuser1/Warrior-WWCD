@@ -6,7 +6,7 @@
   "prefix": "!",
   
   "monitored_channels": [
-    123456789012345678
+    1429065341836857434
   ],
   
   "watermark_path": "watermark.png",
@@ -49,7 +49,5 @@
     "embed_color": "Embed ka color (hex format)",
     "image_quality": "Output image quality (1-100)",
     "send_error_messages": "Error messages channel mein send karne hain (true/false)"
-  }
-}
   }
 }
