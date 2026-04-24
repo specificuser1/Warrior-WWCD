@@ -1,0 +1,55 @@
+{
+  "_comment": "Discord Watermark Bot Configuration File",
+  
+  "token": "YOUR_BOT_TOKEN_HERE",
+  
+  "prefix": "!",
+  
+  "monitored_channels": [
+    123456789012345678
+  ],
+  
+  "watermark_path": "watermark.png",
+  
+  "watermark_size_percent": 15,
+  
+  "watermark_opacity": 0.7,
+  
+  "watermark_position": "center",
+  
+  "watermark_padding": 20,
+  
+  "allowed_extensions": [".png", ".jpg", ".jpeg", ".gif", ".webp"],
+  
+  "delete_original": true,
+  
+  "delete_delay": 0.5,
+  
+  "show_original_author": false,
+  
+  "embed_color": "#5865F2",
+  
+  "image_quality": 95,
+  
+  "send_error_messages": false,
+  
+  "_config_guide": {
+    "token": "Apni Discord bot token yahan paste karein",
+    "prefix": "Bot commands ka prefix (optional, future use ke liye)",
+    "monitored_channels": "Channel IDs ki list jahan bot images monitor karega",
+    "watermark_path": "Watermark image ka path (relative ya absolute)",
+    "watermark_size_percent": "Watermark ka size original image ke percentage mein (1-100)",
+    "watermark_opacity": "Watermark ki transparency (0.0 - 1.0)",
+    "watermark_position": "Options: top-left, top-right, bottom-left, bottom-right, center",
+    "watermark_padding": "Watermark aur image edge ke beech space (pixels mein)",
+    "allowed_extensions": "Allowed image formats",
+    "delete_original": "Original message ko delete karna hai (true/false)",
+    "delete_delay": "Original message delete karne se pehle delay (seconds mein)",
+    "show_original_author": "Embed mein original poster ka naam dikhana hai (false for just WARRIOR ON TOP)",
+    "embed_color": "Embed ka color (hex format)",
+    "image_quality": "Output image quality (1-100)",
+    "send_error_messages": "Error messages channel mein send karne hain (true/false)"
+  }
+}
+  }
+}
