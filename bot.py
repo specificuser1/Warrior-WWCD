@@ -45,8 +45,8 @@ class WatermarkBot(commands.Bot):
         logger.info(f'Bot ID: {self.user.id}')
         await self.change_presence(
             activity=discord.Activity(
-                type=discord.ActivityType.watching, 
-                name="images 🖼️"
+                type=discord.ActivityType.streaming, 
+                name="MADE BY SUBHAN"
             )
         )
     
